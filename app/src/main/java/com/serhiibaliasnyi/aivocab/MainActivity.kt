@@ -39,7 +39,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            AIVocabTheme {
+            AIVocabTheme(useDarkTheme = true) {
                 AppScreen()
             }
         }
